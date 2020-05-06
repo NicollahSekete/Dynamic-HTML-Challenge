@@ -2,6 +2,10 @@ const wrapper = document.getElementById('wrapper');
 //const myfirstbox =document.getElementById('box1');
 const paragraphs = document.getElementsByTagName('p');
 const events = document.getElementById('removeBoxes');
+const images = document.images('img');
+
+//images.style.height= "calc(100vw / 3.5)";
+//images.style.width= "calc(100vw / 3.5)";
 
 
  doBox.onclick = () => {
@@ -15,3 +19,5 @@ const events = document.getElementById('removeBoxes');
     
     boxTwo.onclick = ()=> {
         document.getElementById("box2").style.visibility = "hidden";}
+
+//Dynamic image 

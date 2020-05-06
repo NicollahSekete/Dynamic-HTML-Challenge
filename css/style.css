@@ -29,7 +29,7 @@ div.wrapper {
 	flex-wrap: wrap;
 	justify-content: space-evenly;
 	align-content: flex-start;
-	background-color: rgb(136, 25, 25);
+	background-color: lightpink;
 	overflow: scroll;
 	overflow-x: hidden;
 }
@@ -38,10 +38,10 @@ div.box {
 	width: calc(100vw / 3.5);
 	height: calc(100vw / 3.5);
 	margin: 10px;
-	background-color: #404040;
+	background-color:lightsalmon;
 	flex-wrap: wrap;
 }
-.buttons{
+div.buttons{
 	align-items: center;
 	color: blueviolet;
 
