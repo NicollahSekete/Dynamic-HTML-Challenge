@@ -66,5 +66,13 @@ input {
     text-align: center;
 }
 [placeholder="Explore"]{
-    font-style: italic;
+	font-style: italic;
+	color: black;
+	background-color: lightsalmon;
+}
+[placeholder="How many images?"]{
+	font-style: italic;
+	color: black;
+	background-color: lightsalmon;
+
 }
