@@ -50,7 +50,8 @@ input {
 [id="header1"]{
     color: pink;
     font-style: italic;
-    text-align: center;
+	text-align: center;
+	text-decoration: underline;
 }
 [id="explainer"]{
     color: pink;

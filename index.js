@@ -15,7 +15,8 @@ const createBox = () => {
         let box = document.createElement("div")
         document.body.appendChild(box)
         let imageMaker = document.createElement("img")
-        imageMaker.src = `https://source.unsplash.com/random/500x500/\?${inImg.value}`
+        let randNum = Math.floor((Math.random() * 100) + 1);
+        imageMaker.src = `https://source.unsplash.com/random/500x500/?sig=${randNum}&${inImg.value}`;
         imageMaker.setAttribute("height", "100%");
         imageMaker.setAttribute("width", "100%");
         box.appendChild(imageMaker)
