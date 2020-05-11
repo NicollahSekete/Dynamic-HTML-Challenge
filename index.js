@@ -1,6 +1,6 @@
 let inImg = document.getElementById("inputImage")
 let inputBoxNum = document.getElementById("inputBoxNum")
-let imageMaker = document.createElement("img")
+//dont need//let imageMaker = document.createElement("img")
 let wrapper = document.getElementById("wrapper")
 const removeBoxButton = document.getElementById("button2")
 const buttonMaker = document.getElementById("button1")
@@ -13,7 +13,7 @@ const createBox = () => {
 
     for (let i = 0; i < inputBoxNum.value; i++) {
         let box = document.createElement("div")
-        document.body.appendChild(box)
+        //document.body.appendChild(box)
         let imageMaker = document.createElement("img")
         let randNum = Math.floor((Math.random() * 100) + 1);
         imageMaker.src = `https://source.unsplash.com/random/500x500/?sig=${randNum}&${inImg.value}`;
@@ -29,9 +29,10 @@ const createBox = () => {
 
 //button to remove boxes
 removeBoxButton.onclick = () => {
-    box.classList.toggle('hide')
+    box.classList.toggle('delete')
 }
 
+//attempt to change hide to delete
 
 //button to click to grab images. 
 buttonMaker.onclick =() => {
